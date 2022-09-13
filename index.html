@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>  
+
+    <title>CARRIER LOOKUP</title>
+</head>
+<body>
+    <section class="dashboard">
+
+
+    <div class="upper-dashboard">
+        <div class="logo">
+        <ul>
+         <img src="Image/Logo.png" class="logo-class">
+        <li class="logo-info">CARRIER<span class="lookup-class">LOOKUP</span></li>
+
+        <li class="logo-info logo-title">ACCURATE CAREER INFO</li>
+</ul>
+</div>
+
+    <div class="blank-space"></div>
+
+ <div class="balance">
+            <h3 class="balance1">Balance : <span class="amount">$125</span> </h3>
+        </div>
+
+
+
+    <div class="profile">
+        <div class="profile-box">
+            <img src="Image/profile-pic.png" class="profile-pic"></img>
+            <span class="name">Alexa Jui</span>
+            <img src="Image/dropdown.png"  onclick="show_hide()" class="dropdown">
+            <div id="list-items">  
+         <a href="#">My Profile</a>  
+         <a href="#"> Add Fund </a>  
+         <a href="#"> API Documentation </a>  
+         <a href="#"> Logout </a>  
+         <a href="#"><img src="Image/logout-icon.png">  </a>  
+        </div>
+    </div>
+    </div>
+
+
+</div>
+
+
+
+    <div class="left-dashboard">
+    <ul class="all-dashboard-items">
+
+        <li id="colorChange" onclick="colorChange()"><img src="Image/dashboard1.png"   class="left-icons"><a href="#" class="left-menu">Dashboard</a></li>
+        <li><img src="Image/Lookup.png" class="left-icons"><a href="#" class="left-menu">Lookup</a></li>
+        <li><img src="Image/Files.png" class="left-icons"><a href="#" class="left-menu">Files</a></li>
+        <li><img src="Image/Logs.png" class="left-icons"><a href="#" class="left-menu">Logs</a></li>
+        <li><img src="Image/Credits.png" class="left-icons"><a href="#" class="left-menu">Buy Credits</a></li>
+        <li><img src="Image/Integrations.png" class="left-icons"><a href="#" class="left-menu">Integrations</a></li>
+        <li><img src="Image/Profile.png" class="left-icons"><a href="#" class="left-menu">My Profile</a></li>
+      </ul>
+    </div>
+    </section>
+
+<section class="banner">
+   <div class="credit-profile">
+       <img src="Image/credit-profile-pic.png" class="credit-profile-pic">
+       <h2 class="credit-holder-name">Alexa Jui</h2>
+       <P class="email-address">
+           alexajui@gmail.com
+       </P>
+           <P class="email-address"> +1 354 785 4152 <br>
+
+          3213 D Street, Columbus, USA
+    </P>
+       </span>
+
+   </div> 
+
+   <div class="credit-cards">
+        <h2 class="your-credit-cards">Your Credit Cards</h2>
+       
+       <div class="credit-card">
+         <img src="Image/delete-icon.png" class="delete-icon">
+           <h3 class="credit-card-name">Credit Card 1</h3>
+           <p class="credit-card-number">
+                XXXXXXXXXXX4684
+           </p>
+
+       
+
+       </div>
+
+        <div class="credit-card">
+               <img src="Image/delete-icon.png" class="delete-icon">
+             <h3 class="credit-card-name">Credit Card 2</h3>
+           <p class="credit-card-number">
+                XXXXXXXXXXX4242
+           </p>
+        
+        </div>
+
+         <div class="credit-card">
+            <img src="Image/delete-icon.png" class="delete-icon">
+              <h3 class="credit-card-name">Credit Card 3</h3>
+           <p class="credit-card-number">
+                XXXXXXXXXXX1542
+           </p>
+           
+
+         </div>
+   </div>
+
+</section>
+
+
+
+<section class="user-details">
+  <div class="user-profile">
+    <div class="update-profile">
+    Update Profile
+    </div>
+    <div class="update-profile">Change Password </div>
+    <div class="update-profile">Email Notification</div>
+    <div class="update-profile">Auto recharge Setting</div>
+</div>
+
+
+    <div class="preference">
+    <div class="verification1">
+
+    <img src="Image/toggleon.png" class="toggle"> Notify me when list verification completes
+    </div>
+        <div class="verification2">
+
+    <img src="Image/toggleoff.png" class="toggle">Notify me when list verification result is about to expire
+    </div>
+        <div class="verification3">
+
+    <img src="Image/toggleon.png" class="toggle"> Notify me when list verification completes
+    </div>
+        <div class="verification4">
+
+    <img src="Image/toggleon.png" class="toggle"> Receive Low Credits Email
+
+    <div class="email">Send Email to <span class="star">*</span></div>
+    <input type="text" name="" placeholder="alexajui@gmail.com">
+
+       <div class="warning">
+      When credits are less than<span class="star">*</span>
+       <input type="text" name="" placeholder="50" class="warning-box">
+    </div>
+    </div>
+</div>
+</section>
+<div class="btn">
+  <button class="save-changes">Save Changes</button>
+</div>
+</body>
+</html>
